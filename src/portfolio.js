@@ -4,7 +4,6 @@
 const settings = {
     isSplash: true, // Change this to true if you want to use the splash screen.
     useCustomCursor: false, // Change this to false if you want the good'ol cursor
-
 };
 
 //Home Page
@@ -12,7 +11,7 @@ const greeting = {
     title: "Hello 👋.",
     title2: "Umer Saeed",
     logo_name: "umer.s()",
-    nickname: "umer / extrovertixcyber",
+    nickname: "umer / nulled_ragin",
     full_name: "Muhammad Umer Saeed",
     subTitle: "Full Stack Developer, Open Source Enthusiast 🔥. Always learning.",
     resumeLink: "https://drive.google.com/file/d/1L_O7bmCryZ-aktu5Vngu7OnWUbpzm1eW/view?usp=sharing",
@@ -25,7 +24,7 @@ const socialMediaLinks = {
     linkedin: "https://www.linkedin.com/in/umer-saeed-4b834814b/",
     gmail: "umersaeed3d@gmail.com",
     facebook: "https://www.facebook.com/extrovertix.cyber/",
-    instagram: "https://www.instagram.com/extrovertix.cyber/",
+    instagram: "https://www.instagram.com/nulled_ragin/",
 };
 
 const skills = {
@@ -36,8 +35,8 @@ const skills = {
             skills: [
         "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
         "⚡ Building responsive website front end using ReactJS",
-        "⚡ Creating application backend in Node, Django and Laravel",
-        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+        "⚡ Creating application backend in Node, NestJS and Laravel",
+        "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean",
       ],
             softwareSkills: [
                 {
@@ -267,33 +266,27 @@ const certifications = {
             color_code: "#47A048",
     },
         {
-            title: "Microsoft Cybersecurity Pro Track: Threat Detection",
+            title: "Ultimate AWS Certified Developer Associate 2022",
             subtitle: "Udemy",
-            logo_path: "threatdetection.jpg",
+            logo_path: "AWS.jpg",
             alt_name: "Udemy",
             color_code: "#2AAFED",
     },
         {
-            title: "Advance Bug Bounty Hunting & Penetration Testing Course 2021",
+            title: "NestJS Zero to Hero - Modern TypeScript Back-end Development",
             subtitle: "Udemy",
-            logo_path: "bugbounty.jpg",
+            logo_path: "nest.jpg",
             alt_name: "Udemy",
             color_code: "#fe0037",
     },
         {
-            title: "Wireshark: Packet Analysis and Ethical Hacking: Core Skills",
-            subtitle: "Udemy",
-            logo_path: "wireshark.png",
+            title: "Web Penetration & Security",
+            subtitle: "TryHackMe",
+            logo_path: "tryhackme.png",
             alt_name: "Udemy",
             color_code: "#2AAFED",
     },
-        {
-            title: "Complete WebApplication Penetration Testing Practical C|WAPT",
-            subtitle: "Udemy",
-            logo_path: "webpentesting.png",
-            alt_name: "Udemy",
-            color_code: "#2AAFED",
-    },
+
         {
             title: "Postman Student Expert",
             subtitle: "Postman",
@@ -318,7 +311,7 @@ const certifications = {
 const experience = {
     title: "Experience",
     subtitle: "Work, Internship and Volunteership",
-    description: "I've completed one internship and two office jobs. I've mostly done projects on my own and I am actively looking for freelance projects. I love organizing workshops to share my knowledge with others.",
+    description: "I've completed one internship and three jobs. I was also actively involved in volunteership during my university days.",
     header_image_path: "experience.svg",
     sections: [
         {
@@ -330,7 +323,7 @@ const experience = {
                     logo_path: "kreatix.jpg",
                     duration: "Feb 2018 - Apr 2018",
                     location: "Office",
-                    description: "I worked on the Ecommerce Multi Vendor Site which helped me in development of practical skills. I also worked on music streaming site as well as on it's dashboard with PHP .",
+                    description: "Responsibilities include implementing design and develop multivendor E-commerce website with dashboard under the guidance of Senior Developer.",
                     color: "#0071C5",
         },
                 {
@@ -339,18 +332,36 @@ const experience = {
                     logo_path: "kreatix.jpg",
                     duration: "May 2018 - May 2019",
                     location: "Office",
-                    description: "I worked on multiple systems i.e. ERP, Files Manager and Web Based POS and Inventory Management System.",
+                    description: "Responsibilities include plan, design and develop application backend on PHP programming language.",
                     color: "#0071C5",
         },
                 {
-                    title: "Full Stack Developer (Freelancer)",
-                    company: "Freelancer, Upwork",
+                    title: "Freelancer",
+                    company: "Upwork",
                     logo_path: "upwork.png",
-                    duration: "May 2019 - Current",
-                    location: "Work From Home",
-                    description: "Created Trello based web game, ERP system, Ecommerce Site and developed Microservices for Food Ordering App on Node.js. Also created web version of this app on React.js and TypeScript.",
+                    duration: "May 2019 - May 2020",
+                    location: "Office",
+                    description: "Responsibilities include plan, design and develop application backend on PHP programming language.",
+                    color: "#0071C5",
+        },
+                {
+                    title: "Software Engineer",
+                    company: "Pecan LLC",
+                    logo_path: "upwork.png",
+                    duration: "July 2020  - Jan 2021",
+                    location: "Remote",
+                    description: "Responsibilities include plan, design and develop application backend in form of microservices architecture. Also took part in developing some functionalities on React Web Interface",
                     color: "#ee3c26",
-        }
+        },
+                {
+                    title: "Custom Development Team Lead",
+                    company: "Shot Technologies",
+                    logo_path: "shot.jpeg",
+                    duration: "Feb 2022  - June 2022",
+                    location: "Remote",
+                    description: "Responsibilities include plan and lead the custom development team along with client's dealing. ",
+                    color: "#ee3c26",
+        },
       ],
     },
         {
@@ -362,10 +373,9 @@ const experience = {
                     logo_path: "cybersecure.jpg",
                     duration: "A week",
                     location: "NIC at NED University",
-                    description: "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
+                    description: "",
                     color: "#4285F4",
         },
-
       ],
     },
   ],
@@ -385,7 +395,6 @@ const contactPageData = {
         profile_image_path: "umer.jpg",
         description: "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
     },
-
 };
 
 const projects = {
@@ -393,8 +402,8 @@ const projects = {
         {
             id: "0",
             name: "erp-system",
-            url: "https://github.com/umersaeed3d/erp_system",
-            description: "This is a complete ERP System. Developed in Laravel framework.",
+            url: "http://erp-system-laravel.herokuapp.com/",
+            description: "This is a ERP System having common ERP features. Developed on Laravel framework.",
             languages: [
                 {
                     name: "HTML5",
@@ -420,9 +429,9 @@ const projects = {
     },
         {
             id: "1",
-            name: "eProfile",
-            url: "https://github.com/umersaeed3d/eProfile",
-            description: "A profile manager with unique features such as files manager with customization.",
+            name: "payroll-system",
+            url: "#",
+            description: "A complete payroll system implemented on Laravel framework",
             languages: [
                 {
                     name: "HTML5",
@@ -448,37 +457,9 @@ const projects = {
     },
         {
             id: "2",
-            name: "payroll-system",
-            url: "#",
-            description: "A complete payroll system implemented in Laravel framework",
-            languages: [
-                {
-                    name: "HTML5",
-                    iconifyClass: "vscode-icons:file-type-html",
-        },
-                {
-                    name: "CSS3",
-                    iconifyClass: "vscode-icons:file-type-css",
-        },
-                {
-                    name: "PHP",
-                    iconifyClass: "logos-php",
-        },
-                {
-                    name: "Laravel",
-                    iconifyClass: "logos-laravel",
-        },
-                {
-                    name: "MySQL",
-                    iconifyClass: "logos-mysql",
-        },
-      ],
-    },
-        {
-            id: "3",
             name: "pos-laravel",
-            url: "https://github.com/umersaeed3d/pos-laravel",
-            description: "A POS system with Inventory Management implemented in Laravel framework",
+            url: "#",
+            description: "A POS system with Inventory Management implemented on Laravel framework",
             languages: [
                 {
                     name: "HTML5",
@@ -504,14 +485,13 @@ const projects = {
                     name: "JavaScript",
                     iconifyClass: "logos-javascript",
         },
-
       ],
     },
         {
-            id: "4",
+            id: "3",
             name: "order-and-product-microservices",
             url: "https://store-web-interface-test.herokuapp.com/",
-            description: "Fully secure microservices for a startup implemented in Node.js",
+            description: "Secure microservices for a food order startup implemented on Node.js",
             languages: [
                 {
                     name: "JavaScript",
@@ -528,9 +508,25 @@ const projects = {
       ],
     },
         {
-            id: "3",
+            id: "4",
+            name: "food-order-web-interface",
+            url: "https://store-web-interface-test.herokuapp.com/",
+            description: "A React and TypeScript web interface of the food order app",
+            languages: [
+                {
+                    name: "React",
+                    iconifyClass: "logos-react",
+        },
+                {
+                    name: "TypeScript",
+                    iconifyClass: "logos-typescript",
+        },
+      ],
+    },
+        {
+            id: "5",
             name: "food-order-customer-app",
-            url: "https://drive.google.com/file/d/1bybs7L0PE_RSi0QTRBvDy-vZnsIplxdC/view?usp=sharing",
+            url: "#",
             description: "A react native food order app in beta version",
             languages: [
                 {
@@ -540,9 +536,9 @@ const projects = {
       ],
     },
         {
-            id: "4",
+            id: "8",
             name: "trello-gamification",
-            url: "https://github.com/umersaeed3d/trello_gamification",
+            url: "#",
             description: "A game based on trello scores for employees.",
             languages: [
                 {
@@ -572,9 +568,9 @@ const projects = {
       ],
     },
         {
-            id: "5",
+            id: "7",
             name: "ai-fitness-trainer",
-            url: "https://github.com/umersaeed3d/AIfitnesstrainer",
+            url: "#",
             description: "A semester project for learning. It generates machine learning based workout plans. Dashboard is implemented on Django",
             languages: [
                 {
@@ -596,10 +592,10 @@ const projects = {
       ],
     },
         {
-            id: "6",
+            id: "8",
             name: "protonic-nutrition",
-            url: "https://github.com/umersaeed3d/protonic-nutrition",
-            description: "An ecommerce site implemented in Django framework",
+            url: "#",
+            description: "An e-commerce site implemented on Django framework",
             languages: [
                 {
                     name: "JavaScript",
@@ -615,7 +611,6 @@ const projects = {
         },
       ],
     },
-
   ],
 };
 
